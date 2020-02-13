@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Baluku</string>
+    <string name="button">Button</string>
+    <string name="textview">TextView</string>
+    <string name="enter_a_message_here">ENTER A MESSAGE HERE</string>
+    <string name="send">SEND</string>
+    <string name="message">MESSAGE</string>
+
+
+
+    <string name="Message">Message</string>
+    <string name="Close">Close</string>
 </resources>
