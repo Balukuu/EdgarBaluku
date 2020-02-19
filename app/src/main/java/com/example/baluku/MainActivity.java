@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public boolean onCreateOptionsMenu (Menu menu){
-        MenuInflater inflater =getMenuInflater();
+        MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
         return true;
     }
@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
 
-            case R.id.end:
+            case R.id.menu_start:
                 startActivity(new Intent(this,  BalukuEdgar.class));
 
                 return true;
-            case R.id.start:
+            case R.id.menu_end:
                 startActivity(new Intent(this,  baluku36.class));
 
                 return true;
