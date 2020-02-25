@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@+id/activity_vertical_margin"
+    android:paddingLeft="@+id/activity_horizontal_margin"
+    android:paddingRight="@+id/activity_horizontal_margin"
+    android:paddingTop="@+id/activity_vertical_margin"
+    tools:context="android.com.example.Baluku.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World by Android!"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
+-->
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -12,18 +32,19 @@
         android:layout_width="270dp"
         android:layout_height="119dp"
         android:layout_marginTop="121dp"
-        android:layout_marginEnd="48dp"
+        android:layout_marginEnd="68dp"
         android:layout_marginBottom="32dp"
         android:autofillHints=""
         android:ems="10"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:text="@string/enter_a_message_here"
+        android:hint="ENTER YOUT MESSAGE HERE.."
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.497" tools:targetApi="o" />
+        app:layout_constraintVertical_bias="0.721"
+        tools:targetApi="o" />
 
     <Button
         android:id="@+id/button"

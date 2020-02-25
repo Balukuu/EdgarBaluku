@@ -3,15 +3,15 @@
     <string name="message">MESSAGE</string>
     <string name="foundation">foundation</string>
     <string name="app_name">Baluku</string>
-    <string name="button">Button</string>
+    <string name="button">bouton</string>
     <string name="textview">TextView</string>
-    <string name="enter_a_message_here">ENTER A MESSAGE HERE</string>
-    <string name="send">SEND</string>
+    <string name="enter_a_message_here">entrez le message ici</string>
+    <string name="send">envoyer</string>
     <string name="Message">Message</string>
-    <string name="Close">Close</string>
-    <string name="start">Start</string>
-    <string name="end">End</string>
-    <string name="play">play</string>
-    <string name="stop">stop</string>
-    <string name="music">Music</string>
+    <string name="Close">envoyer...</string>
+    <string name="start">début</string>
+    <string name="end">fin</string>
+    <string name="play">jouer</string>
+    <string name="stop">Arrêtez</string>
+    <string name="music">la musique</string>
 </resources>
