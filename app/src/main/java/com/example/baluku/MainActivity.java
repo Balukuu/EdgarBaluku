@@ -46,6 +46,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this,  baluku36.class));
 
                 return true;
+            case R.id.list_view:
+                startActivity(new Intent(this,  ListViewActivity.class));
+
+                return true;
         default:
             return super.onOptionsItemSelected(item);
         }
