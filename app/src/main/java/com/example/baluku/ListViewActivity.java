@@ -25,7 +25,7 @@ public class ListViewActivity extends AppCompatActivity {
     // This method use an ArrayAdapter to add data in ListView.
     private void arrayAdapterListView()
     {
-        setTitle("dev2qa.com - ArrayAdapter List View Example");
+        setTitle("Programming");
 
         List<String> dataList = new ArrayList<String>();
         dataList.add("Java");

@@ -16,7 +16,7 @@ public class BalukuEdgar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_baluku_edgar);
 
-        final MediaPlayer mediaPlayer= MediaPlayer.create(this, R.raw.edgarbaluku);
+        //final MediaPlayer mediaPlayer= MediaPlayer.create(this, R.raw.edgarbaluku);
 
         play = findViewById(R.id.play_btn);
         stop = findViewById(R.id.stop_btn);
