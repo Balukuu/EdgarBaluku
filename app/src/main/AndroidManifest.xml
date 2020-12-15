@@ -10,14 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RecyclerView"></activity>
+        <activity android:name=".MainActivity"></activity>
         <activity android:name=".ListViewActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".BalukuEdgar" />
         <activity android:name=".baluku36" />
         <activity android:name=".InternalExternal" />
-        <activity android:name=".BalukuEdgar" />
         <activity android:name=".DisplayMessageActivty" />
+        <activity android:name=".Main2Activity"/>
         <activity android:name=".SplashActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

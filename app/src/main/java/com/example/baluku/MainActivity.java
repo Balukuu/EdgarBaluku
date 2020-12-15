@@ -134,6 +134,8 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             case R.id.InternalExternal:
                 startActivity(new Intent(this,  InternalExternal.class));
+            case R.id.sql:
+                startActivity(new Intent(this,  Main2Activity.class));
 
                 return true;
         default:
