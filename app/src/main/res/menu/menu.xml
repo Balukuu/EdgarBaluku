@@ -6,5 +6,7 @@
     <item android:id="@+id/list_view"  android:title="ListView" />
     <item android:id="@+id/InternalExternal"  android:title="Internal/external" />
     <item android:id="@+id/sql"  android:title="Sqllite" />
+    <item android:id="@+id/call" android:title="@string/call"/>
+    <item android:id="@+id/email" android:title="@string/mail"/>
 
 </menu>

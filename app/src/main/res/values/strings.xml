@@ -29,4 +29,6 @@
     <string name="add">add</string>
     <string name="view_data">view data</string>
     <string name="enter_data_here">ENTER DATA HERE..</string>
+    <string name="call">call</string>
+    <string name="mail">mail</string>
 </resources>

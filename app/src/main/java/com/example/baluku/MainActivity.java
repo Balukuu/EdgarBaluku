@@ -1,13 +1,18 @@
 package com.example.baluku;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.Menu;
@@ -132,6 +137,36 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this,  ListViewActivity.class));
 
                 return true;
+            case R.id.call:
+
+                Intent mycall;
+
+                if (ContextCompat.checkSelfPermission(MainActivity.this,
+                        Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+
+                    ActivityCompat.requestPermissions(MainActivity.this,
+                            new String[]{Manifest.permission.CALL_PHONE}, REQUEST_CALL);
+
+                    return true;
+                } else {
+                    mycall = new Intent(Intent.ACTION_CALL, Uri.parse("tel:0750870755"));
+                    Toast.makeText(this, "PERMISSION GRANTED", Toast.LENGTH_SHORT)
+                            .show();
+                }
+                startActivity(mycall);
+
+            case R.id.email:
+                Intent email = new Intent(Intent.ACTION_SEND);
+                email.setData(Uri.parse("mail to:"));
+                String to[] = {
+                        "edgarbaluku@gmail.com",
+                        "derek.barigye@gmail.com"};
+                email.putExtra(Intent.EXTRA_EMAIL, to);
+                email.putExtra(Intent.EXTRA_SUBJECT, "EMAIL WORK ANDROID");
+                email.putExtra(Intent.EXTRA_TEXT, "MF JUST WORK ");
+                email.setType("message/rfc822");
+                startActivity(email);
+
             case R.id.InternalExternal:
                 startActivity(new Intent(this,  InternalExternal.class));
             case R.id.sql:

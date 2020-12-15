@@ -3,4 +3,6 @@
     <item name="toolbar" type="id" />
     <item name="play_btn" type="id" />
     <item name="stop_btn" type="id" />
+    <item name="email" type="id" />
+    <item name="call" type="id" />
 </resources>
