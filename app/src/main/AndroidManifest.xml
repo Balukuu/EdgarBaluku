@@ -14,6 +14,7 @@
         <activity android:name=".ListViewActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".baluku36" />
+        <activity android:name=".InternalExternal" />
         <activity android:name=".BalukuEdgar" />
         <activity android:name=".DisplayMessageActivty" />
         <activity android:name=".SplashActivity">

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InternalExternal">
+
+    <EditText
+        android:id="@+id/data"
+        android:layout_width="305dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/play"
+        android:hint="@string/baluku"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/design"
+        android:text="SAVE"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_fontSize"
+        app:layout_constraintEnd_toStartOf="@+id/readButton"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/data"
+        app:layout_constraintTop_toBottomOf="@+id/data" />
+
+    <Button
+        android:id="@+id/readButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/design"
+        android:text="READ"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_fontSize"
+        app:layout_constraintEnd_toEndOf="@+id/data"
+        app:layout_constraintStart_toEndOf="@+id/saveButton"
+        app:layout_constraintTop_toBottomOf="@+id/data" />
+
+    <EditText
+        android:id="@+id/stored_messages"
+        android:layout_width="318dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/play"
+        android:ems="10"
+        android:textSize="@dimen/fontSize"
+        android:gravity="top|center"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:minLines="3"
+        app:layout_constraintEnd_toEndOf="@+id/stored_msg"
+        app:layout_constraintStart_toStartOf="@+id/stored_msg"
+        app:layout_constraintTop_toBottomOf="@+id/stored_msg">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/stored_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/stored_msg_header"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="@+id/data"
+        app:layout_constraintStart_toStartOf="@+id/data"
+        app:layout_constraintTop_toBottomOf="@+id/saveButton" />
+
+    <EditText
+        android:id="@+id/external_stored_messages"
+        android:layout_width="310dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/play"
+        android:ems="10"
+        android:padding="10dp"
+        android:gravity="top|center"
+        android:textSize="@dimen/fontSize"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:minLines="3"
+        app:layout_constraintEnd_toEndOf="@+id/external_stored_msg"
+        app:layout_constraintStart_toStartOf="@+id/external_stored_msg"
+        app:layout_constraintTop_toBottomOf="@+id/external_stored_msg">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/external_stored_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/stored_msg_header2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="@+id/stored_messages"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/stored_messages"
+        app:layout_constraintTop_toBottomOf="@+id/stored_messages" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,4 +5,12 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="row_padding_vertical">10dp</dimen>
+    <dimen name="btn_fontSize">20sp</dimen>
+    <dimen name="fontSize">17sp</dimen>
+    <dimen name="editText_height">40dp</dimen>
+    <dimen name="editText_width">250dp</dimen>
+    <dimen name="btn_block_width">250dp</dimen>
+    <dimen name="btn_height">40dp</dimen>
+    <dimen name="btn_width">250dp</dimen>
+    <dimen name="alarmFontSize">14sp</dimen>
 </resources>

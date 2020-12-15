@@ -4,5 +4,6 @@
 <item android:id="@+id/menu_start"  android:title="@string/music" />
     <item android:id="@+id/menu_end"  android:title="@string/end" />
     <item android:id="@+id/list_view"  android:title="ListView" />
+    <item android:id="@+id/InternalExternal"  android:title="Internal/external" />
 
 </menu>

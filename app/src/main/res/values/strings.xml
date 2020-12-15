@@ -15,4 +15,15 @@
 
     <string name="play">play</string>
     <string name="stop">stop</string>
+    <string name="HINY" translatable="false">HINY</string>
+    <string name="stored_msg_header2" translatable="false">stored_msg_header2</string>
+    <string name="stored_msg_header" translatable="false">stored_msg_header</string>
+    <string name="InternalExternal" translatable="false">InternalExternal</string>
+    <string name="baluku">baluku</string>
+    <string name="enter_a_message_hereg">message</string>
+    <string name="hint">hint</string>
+    <string name="textField">textField</string>
+    <string name="start_alarm">Start_alarm</string>
+    <string name="stop_alarm">stop_alarm</string>
+    <string name="alarm_time">alarm_time</string>
 </resources>
