@@ -14,7 +14,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     // For all Primary Keys _id should be used as column name
     public static final String COLUMN_ID = "_id";
     // Definition of table and column names of Products table
-    public static final String TABLE_PRODUCTS = "Products";
+    public static final String TABLE_PRODUCTS = "Product";
     public static final String COLUMN_NAME = "Name";
     public static final String COLUMN_DESCRIPTION = "Descr";
 
