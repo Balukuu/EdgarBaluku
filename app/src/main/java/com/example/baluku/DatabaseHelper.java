@@ -21,7 +21,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     // Create Statement for Products Table
     private static final String CREATE_TABLE_PRODUCT = "CREATE TABLE " + TABLE_PRODUCTS +
-            "  (" + COLUMN_ID + " INTEGER PRIMARY KEY, " + COLUMN_NAME + " TEXT);";
+            "  (" + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_NAME  + " TEXT);";
 
 
     public DatabaseHelper(Context context) {
